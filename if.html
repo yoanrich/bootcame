@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>//konfersi tipe data dari string ke integer prasenInt
+        var jawab = prompt("Kamu beruntung! silakan pilih hadiahmu dengan memasukan angka 1 sampai 5");
+        var hadiah = "";
+
+        if (jawab == 1) {
+            hadiah = "Tisu";
+        }
+        else if (jawab == 2) {
+            hadiah = "1 kotak kopi";
+        }
+        else if (jawab == 3) {
+            hadiah = "sticker";
+        }
+        else if (jawab == 4) {
+            hadiah = "Minyak Goreng";
+        }
+        else if (jawab == 5) {
+            hadiah = "uang Rp. 50.000";
+        }
+        else {
+            document.write("<p>Opps! anda salah pilih</p>");
+        }
+        if (hadiah === "") {
+            document.write("<p>Kamu gagal mendapatkan hadiah</p>");
+        } else {
+            document.write("<h2>Selamat kamu mendapatkan hadiah " + hadiah + "</h2>");
+        }
+    </script>
+</body>
+
+</html>

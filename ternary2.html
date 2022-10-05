@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ternary if else if</title>
+</head>
+
+<body>
+    <script>//konfersi tipe data dari string ke integer prasenInt
+        var jawab = parseInt(prompt("Kamu beruntung! silakan pilih hadiahmu dengan memasukan angka 1 sampai 5"));
+        var hadiah = "";
+        (jawab == 1) ? hadiah = "tisu" : (jawab == 2) ? hadiah = "1 kotak kopi" : (jawab == 3) ? hadiah = "sticker" : (jawab == 4) ? hadiah = "minyak goreng" : (jawab == 5) ? hadiah = "uang Rp. 50.000" : document.write("<p>Opps! anda salah pilih</p>");
+
+        if (hadiah === "") {
+            document.write("<h2>Kamu gagal mendapatkan hadiah</h2>");
+        } else {
+            document.write("<h2>Selamat kamu mendapatkan hadiah " + hadiah + "</h2>");
+        }
+
+    </script>
+</body>
+
+</html>
