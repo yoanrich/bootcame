@@ -5,26 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nested3</title>
+    <title>nested4</title>
 </head>
 
 <body>
     <!-- logic segitiga bintang 
-        *
-        **
-        ***
         ****
+        ***
+        **
+        *
     -->
     <script>
         let n = 5;
         let bintang = "";
 
         for (let x = 1; x <= n; x++) {
-            for (let y = 0; y < x; y++) {
-                bintang += "*";
+            for (let y = n; y < n - 1; y--) {
+                bintang += "";
             }
             bintang += "</br>";
-        } document.write(bintang);
+        }
+        document.write(bintang);
 
     </script>
 </body>

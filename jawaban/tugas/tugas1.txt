@@ -1,0 +1,4 @@
+1. perulangan sebanyak nilai 'x', cetak / print ganjil atau genap
+2. input sebuah square matrix (2x2, 3x3, 4x4,....)
+hitung sium dari diagonalnya
+3. buat sebuah program command-line sederhana, tanya jawab berulang menggunakan do - while dan perulangan akan berhenti jika memasukna key "x"
