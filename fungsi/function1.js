@@ -13,12 +13,12 @@
 // console.log(multipy(a, b));
 
 //contoh 2
-let a = 3;
-let b = 4;
-function multipy(a, b) { //(firstNumber, seconfNumber)  => parameter
-    return a * b;
-}
-console.log(multipy());
+// let a = 3;
+// let b = 4;
+// function multipy(a, b) { //(firstNumber, seconfNumber)  => parameter
+//     return a * b;
+// }
+// console.log(multipy());
 
 
 
@@ -30,3 +30,4 @@ console.log(multipy());
 //     return a * b;
 // }
 // console.log(multipy());
+

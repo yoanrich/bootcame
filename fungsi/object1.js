@@ -5,4 +5,4 @@ const user = {
     false: 'tipe data boolean',
 };
 console.log(`saya adalah ${user.null}`);
-console.log(`saya adalah ${user['null']}`;)
+console.log(`saya adalah ${user['null']}`);

@@ -46,8 +46,10 @@ const profile2 = {
 let namaDepan1 = "Dimas";
 let umur1 = 20;
 
-
+//menginisalisasi nilai baru melalui destrusturisasi objek
 ({ namaDepan1, umur1 } = profile2);
+
+//merisain nama dimas menjadi jhon
 
 console.log(namaDepan1);
 console.log(umur1);

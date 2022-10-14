@@ -4,7 +4,7 @@ var universeSize = function () {
 }();
 console.log(universeSize);
 
-//2 ketika langsung dipanggil
+//2 ketika langsung dipanggil 
 var universeSize = function () {
     return "gigantic"
 };

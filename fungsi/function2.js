@@ -9,3 +9,4 @@ function introduce({ displayName, fullName }) {
 }
 
 introduce(user);
+
