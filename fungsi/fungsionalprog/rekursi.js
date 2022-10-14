@@ -1,34 +1,49 @@
-function number() {
-    let a = 10;
+// function number() {
+//     let a = 10;
 
-    for (let i = a; i >= 1; i--) {
-        console.log(i);
-    }
+//     for (let i = a; i >= 1; i--) {
+//         console.log(i);
+//     }
 
-} number();
+// } number();
 
-console.log('break');
+// console.log('break');
 
-//bentuk rekursi countDown
+// //bentuk rekursi countDown
 
-const countDown = start => {
-    console.log(start);
-    if (start > 0) countDown(start - 1);
-};
+// const countDown = start => {
+//     console.log(start);
+//     if (start > 0) countDown(start - 1);
+// };
 
-countDown(10);
+// countDown(10);
 
-console.log('break');
+// console.log('break');
 
+// // perulangan do while
+// const data = mulai => {
+//     console.log(mulai);
+//     do {
+//         mulai = data;
+//         mulai--;
+
+//     }
+//     while (mulai > 1)
+// };
+// data(10);
+
+
+console.log("break");
 // faktorial
-const faktorial = function (x) {
-    if (x == 1) {
+const faktorial = sum => {
+    if (sum == 1) {
         return 1;
     }
     else {
-        return x * faktorial(x - 1);
+        return sum * faktorial(sum - 1);
     }
 }
 console.log(faktorial(5));
+
 
 console.log('break');
