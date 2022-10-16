@@ -33,17 +33,21 @@
 // data(10);
 
 
-console.log("break");
-// faktorial
+// console.log("break");
+// // faktorial
+// const faktorial = sum => {
+//     if (sum == 1) {
+//         return 1;
+//     }
+//     else {
+//         return sum * faktorial(sum - 1);
+//     }
+// }
+// console.log(faktorial(5));
+
+//faktorial tenery
+console.log('break');
 const faktorial = sum => {
-    if (sum == 1) {
-        return 1;
-    }
-    else {
-        return sum * faktorial(sum - 1);
-    }
+    return sum == 0 ? 1 : sum * faktorial(sum - 1);
 }
 console.log(faktorial(5));
-
-
-console.log('break');

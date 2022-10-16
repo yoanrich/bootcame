@@ -1,0 +1,25 @@
+disini saya akan menjelaskan secara singkat pemahaman saya mengenai imperative dan declarative programming, dari yang saya dapat pahami bahwa :
+imperative programming => paradigma how, 
+		jadi dalam imperative programming dalam menyelesaikan masalahnya dengan menggunakan proses atau step by 		stepnya.
+		
+deklaration programming => paradigma what,
+		jadi dalam declarative programming dalam menyelesaikan masalahnya tidak mementingkan prosesnya melainkan apa 		yang dihasilkan 
+		
+
+paradigma => teknis penyelesaian masalah 
+
+* contoh : seseorang ingin makan mie instan
+
+#jika dilakukan dengan pendekatan imperative :
+	1. merebus air
+	2. memasak mie 
+	3. tuang bumbu ke mangkuk
+	4. tuang mie ke mangkuk
+	5. aduk mie agar merata dengan bumbu 
+	6. selamat menikmati 
+
+#jika dilakukan dengan pendekatan deklaration :
+	1. tante mie rebusnya pake telor satu minumnya ES TEH
+
+
+
