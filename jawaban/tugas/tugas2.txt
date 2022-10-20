@@ -21,5 +21,8 @@ paradigma => teknis penyelesaian masalah
 #jika dilakukan dengan pendekatan deklaration :
 	1. tante mie rebusnya pake telor satu minumnya ES TEH
 
+gaya penulisan suatu code program yang menjelaskan bagaimana proses berjalan hingga menghasilkan suatu value
 
+
+gaya penulisan suatu code program yang hanya mengetahui hasilnya sedangkan prosesnya tidak dijelaskan
 

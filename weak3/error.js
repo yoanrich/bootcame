@@ -3,7 +3,7 @@
 function doIt() {
     try {
         return 'form try block';
-    } catch {
+    } catch (e) {
         return 'form catch block'
     } finally {
         return 'form finally block';
