@@ -8,7 +8,7 @@
     <title>JavaScript Post Test CURD</title>
 </head>
 <link rel="stylesheet" type="text/css" href="style.css">
-
+<!--
 <body>
     <h1> Daftar Nama Pendaftar</h1>
     <div class="box">
@@ -25,5 +25,81 @@
     <script src="CURD.js"></script>
 
 </body>
+-->
+
+<body>
+    <input type="text" placeholder="masukan NIK" id="inputnik">
+    <input type="text" placeholder="masukan Nama" id="inputnama">
+    <input type="text" placeholder="masukan Umur" id="inputumur">
+    <input type="text" placeholder="masukan Kelas" id="inputkelas">
+    <button id="tambah" type="submit" onclick="tambahData()" value="tambah">Tambah</button>
+
+    <table border="1px" width="200px">
+        <thead>
+
+            <tr>
+                <th>No</th>
+                <th>NIK</th>
+                <th>Nama</th>
+                <th>Umur</th>
+                <th>kelas</th>
+            </tr>
+        </thead>
+        <tbody id="dataTable">
+
+        </tbody>
+
+    </table>
+
+</body>
+<script>
+    //tipe data objek dalam array
+    let data = [
+        {
+            nik: "123",
+            nama: "Feri",
+            umur: 17,
+            kelas: 'XI'
+        },
+        {
+            nik: "124",
+            nama: "Yakobus",
+            umur: 18,
+            kelas: 'XI'
+        },
+        {
+            nik: "154",
+            nama: "yusak",
+            umur: 18,
+            kelas: 'XI'
+        },
+    ];
+    function printData() {
+        const dataTable = document.getElementById("dataTable");
+        dataTable.innerHTML += ``;
+
+        for (let i = 0; i < data.length; i++) {
+            dataTable.innerHTML += `<tr>`
+            dataTable.innerHTML += `<td>${i + 1}</td><td>${data[i].nik}</td><td>${data[i].nama}</td><td>${data[i].umur}</td><td>${data[i].kelas}</td>`;
+            dataTable.innerHTML += `</tr>`;
+        }
+    }
+
+    function tambahData() {
+        let inputnik = document.querySelector("input[nik]");
+        let inputnama = document.querySelector("input[nama]");
+        let inputumur = document.querySelector("input[umur]");
+        let inputkelas = document.querySelector("input[kelas]");
+        data.push({
+            nik: inputnik.value,
+            nama: inputnama.value,
+            umur: parseInt(inputumur.value),
+            kelas: inputkelas.value
+        });
+        printData();
+    }
+
+    printData();
+</script>
 
 </html>
